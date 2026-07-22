@@ -28,10 +28,9 @@ edenai = ProviderProfile(
     description="Eden AI — multi-provider AI gateway (OpenAI-compatible)",
     signup_url="https://app.edenai.run/",
     fallback_models=(
-        "openai/gpt-4o",
+        "qwen/glm-5.2",
+        "deepseek/deepseek-v4-pro",
         "openai/gpt-4o-mini",
-        "anthropic/claude-3-5-sonnet",
-        "google/gemini-1.5-pro",
         "meta/llama-3.1-70b-instruct",
     ),
 )
